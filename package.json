@@ -1,0 +1,23 @@
+{
+  "name": "wunblog",
+  "version": "0.1.0",
+  "description": "berber blog",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "vuepress dev docs",
+    "build": "vuepress build docs"
+  },
+  "keywords": [
+    "wun",
+    "wunblog",
+    "blog"
+  ],
+  "author": "berber",
+  "license": "MIT",
+  "devDependencies": {
+    "moment": "^2.29.1",
+    "vuepress": "^1.9.7",
+    "vuepress-theme-reco": "^1.6.10"
+  }
+}
