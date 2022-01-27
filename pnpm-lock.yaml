@@ -1,11 +1,13 @@
 lockfileVersion: 5.3
 
 specifiers:
+  '@vuepress/plugin-google-analytics': ^1.9.7
   moment: ^2.29.1
   vuepress: ^1.9.7
   vuepress-theme-reco: ^1.6.10
 
 devDependencies:
+  '@vuepress/plugin-google-analytics': 1.9.7
   moment: 2.29.1
   vuepress: 1.9.7
   vuepress-theme-reco: 1.6.10_vuepress@1.9.7
@@ -1810,6 +1812,14 @@ packages:
       - debug
       - esm
       - vuepress
+    dev: true
+
+  /@vuepress/plugin-google-analytics/1.9.7:
+    resolution: {integrity: sha512-ZpsYrk23JdwbcJo9xArVcdqYHt5VyTX9UN9bLqNrLJRgRTV0X2jKUkM63dlKTJMpBf+0K1PQMJbGBXgOO7Yh0Q==}
+    dependencies:
+      '@vuepress/types': 1.9.7
+    transitivePeerDependencies:
+      - debug
     dev: true
 
   /@vuepress/plugin-last-updated/1.9.7:

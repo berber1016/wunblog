@@ -8,13 +8,13 @@ module.exports = {
           lang: 'zh-CN'
         }
     },
-    lastUpdated: '上次更新', // string | boolean
     themeConfig: {
         nav:[
             {text:'首页',link:'/'},
             {text:'github',link:'https://github.com/berber1016'},
             {text:'掘金',link:'https://juejin.cn/user/1714893868770846'}
         ],
+        lastUpdated: '上次更新', // string | boolean
         subSidebar: 'auto',
         sidebar:[
             // {

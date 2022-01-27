@@ -15,5 +15,9 @@ git commit -m 'deploy'
 
 # 如果发布到 https://<USERNAME>.github.io/<REPO>
 git push -f git@github.com:berber1016/wunblog.git master:gh-pages
-
+git push -f git@101.43.181.73:/home/www/website/ts.git master
 cd -
+
+git add .
+git commit -m 'update'
+git push -f git@github.com:berber1016/wunblog.git master
