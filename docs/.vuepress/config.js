@@ -45,6 +45,14 @@ module.exports = {
                 ],
             },
             {
+                title: '随笔',
+                path: '/blog/index',
+                children: [{
+                    title: 'facking @ in all config',
+                    path: '/blog/facking-@-in-all-config'
+                }]
+            },
+            {
                 title: "一些译文",
                 path: "/translation/index",
                 // collapsable: false, // 不折叠
