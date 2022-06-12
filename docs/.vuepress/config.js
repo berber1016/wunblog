@@ -1,7 +1,7 @@
 module.exports = {
     title: 'wun blog',
     description: 'berber/胜利 博客',
-    base: '/wunblog/',
+    base: '/',
     theme: 'reco',
     head: [
         ['meta', { name: 'keywords', content: '博客 berber1016的博客' }]
