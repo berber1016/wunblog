@@ -4,7 +4,7 @@ module.exports = {
     base: '/',
     theme: 'reco',
     head: [
-        ['meta', { name: 'keywords', content: '博客 berber1016的博客' }]
+        ['meta', { name: 'keywords', content: '博客 berber1016的博客 个人博客' }]
     ],
     locales: {
         '/': {
@@ -16,16 +16,18 @@ module.exports = {
         nav: [
             { text: '首页', link: '/' },
             { text: 'github', link: 'https://github.com/berber1016' },
-            { text: '掘金', link: 'https://juejin.cn/user/1714893868770846' }
+            { text: '掘金', link: 'https://juejin.cn/user/1714893868770846' },
+            { text: 'typescript-eslint 翻译', link: 'https://berber1016.github.io/typescript-eslint-chinese/' }
         ],
+        record: '京ICP备2022003718号-1',
+        recordLink: 'https://beian.miit.gov.cn',
+        // cyberSecurityRecord: '公安部备案文案',
+        // cyberSecurityLink: '公安部备案指向链接',
+        // 项目开始时间，只填写年份
+        startYear: '2022',
         lastUpdated: '上次更新', // string | boolean
         subSidebar: 'auto',
         sidebar: [
-            // {
-            //     title: 'wun blog',
-            //     path: '/',
-            //     collapsable: false, // 不折叠
-            // },
             {
                 title: "rc-component",
                 path: '/rc-component/index',
@@ -44,14 +46,14 @@ module.exports = {
                     // { title: "rc-select", path: "/rc-component/rc-select" },
                 ],
             },
-            {
-                title: '随笔',
-                path: '/blog/index',
-                children: [{
-                    title: 'facking @ in all config',
-                    path: '/blog/facking-@-in-all-config'
-                }]
-            },
+            // {
+            //     title: '随笔',
+            //     path: '/blog/index',
+            //     // children: [{
+            //     //     title: 'facking @ in all config',
+            //     //     path: '/blog/facking-@-in-all-config'
+            //     // }]
+            // },
             {
                 title: "一些译文",
                 path: "/translation/index",

@@ -1,1 +1,0 @@
-# facking @ in all config
